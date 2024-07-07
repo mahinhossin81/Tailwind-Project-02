@@ -4,6 +4,12 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: {
+          lg: '3rem'
+        },
+      },
       backgroundImage: {
         'testimonial': ['url(/images/brooke-cagle-g1Kr4Ozfoac-unsplash\ 2.png)']
       },
